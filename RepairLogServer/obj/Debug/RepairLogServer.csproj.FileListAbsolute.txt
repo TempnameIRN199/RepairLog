@@ -1,0 +1,43 @@
+D:\Coding\RepairLog\RepairLogServer\bin\Debug\RepairLogServer.exe.config
+D:\Coding\RepairLog\RepairLogServer\bin\Debug\RepairLogServer.exe
+D:\Coding\RepairLog\RepairLogServer\bin\Debug\RepairLogServer.pdb
+D:\Coding\RepairLog\RepairLogServer\bin\Debug\EntityFramework.dll
+D:\Coding\RepairLog\RepairLogServer\bin\Debug\EntityFramework.SqlServer.dll
+D:\Coding\RepairLog\RepairLogServer\bin\Debug\EntityFramework.xml
+D:\Coding\RepairLog\RepairLogServer\bin\Debug\EntityFramework.SqlServer.xml
+D:\Coding\RepairLog\RepairLogServer\obj\Debug\RepairLogServer.csproj.AssemblyReference.cache
+D:\Coding\RepairLog\RepairLogServer\obj\Debug\MainWindow.g.cs
+D:\Coding\RepairLog\RepairLogServer\obj\Debug\App.g.cs
+D:\Coding\RepairLog\RepairLogServer\obj\Debug\RepairLogServer_MarkupCompile.cache
+D:\Coding\RepairLog\RepairLogServer\obj\Debug\RepairLogServer_MarkupCompile.lref
+D:\Coding\RepairLog\RepairLogServer\obj\Debug\MainWindow.baml
+D:\Coding\RepairLog\RepairLogServer\obj\Debug\RepairLogServer.g.resources
+D:\Coding\RepairLog\RepairLogServer\obj\Debug\RepairLogServer.Properties.Resources.resources
+D:\Coding\RepairLog\RepairLogServer\obj\Debug\RepairLogServer.csproj.GenerateResource.cache
+D:\Coding\RepairLog\RepairLogServer\obj\Debug\RepairLogServer.csproj.CoreCompileInputs.cache
+D:\Coding\RepairLog\RepairLogServer\obj\Debug\RepairLo.4153F59E.Up2Date
+D:\Coding\RepairLog\RepairLogServer\obj\Debug\RepairLogServer.exe
+D:\Coding\RepairLog\RepairLogServer\obj\Debug\RepairLogServer.pdb
+E:\Coding\Project VS\NAU-project\RepairLog\RepairLogServer\bin\Debug\RepairLogServer.exe.config
+E:\Coding\Project VS\NAU-project\RepairLog\RepairLogServer\bin\Debug\RepairLogServer.exe
+E:\Coding\Project VS\NAU-project\RepairLog\RepairLogServer\bin\Debug\RepairLogServer.pdb
+E:\Coding\Project VS\NAU-project\RepairLog\RepairLogServer\bin\Debug\EntityFramework.dll
+E:\Coding\Project VS\NAU-project\RepairLog\RepairLogServer\bin\Debug\EntityFramework.SqlServer.dll
+E:\Coding\Project VS\NAU-project\RepairLog\RepairLogServer\bin\Debug\Newtonsoft.Json.dll
+E:\Coding\Project VS\NAU-project\RepairLog\RepairLogServer\bin\Debug\EntityFramework.xml
+E:\Coding\Project VS\NAU-project\RepairLog\RepairLogServer\bin\Debug\EntityFramework.SqlServer.xml
+E:\Coding\Project VS\NAU-project\RepairLog\RepairLogServer\bin\Debug\Newtonsoft.Json.xml
+E:\Coding\Project VS\NAU-project\RepairLog\RepairLogServer\obj\Debug\RepairLogServer.csproj.AssemblyReference.cache
+E:\Coding\Project VS\NAU-project\RepairLog\RepairLogServer\obj\Debug\MainWindow.g.cs
+E:\Coding\Project VS\NAU-project\RepairLog\RepairLogServer\obj\Debug\App.g.cs
+E:\Coding\Project VS\NAU-project\RepairLog\RepairLogServer\obj\Debug\RepairLogServer_MarkupCompile.cache
+E:\Coding\Project VS\NAU-project\RepairLog\RepairLogServer\obj\Debug\RepairLogServer_MarkupCompile.lref
+E:\Coding\Project VS\NAU-project\RepairLog\RepairLogServer\obj\Debug\MainWindow.baml
+E:\Coding\Project VS\NAU-project\RepairLog\RepairLogServer\obj\Debug\RepairLogServer.g.resources
+E:\Coding\Project VS\NAU-project\RepairLog\RepairLogServer\obj\Debug\RepairLogServer.Migrations.firstMigration.resources
+E:\Coding\Project VS\NAU-project\RepairLog\RepairLogServer\obj\Debug\RepairLogServer.Properties.Resources.resources
+E:\Coding\Project VS\NAU-project\RepairLog\RepairLogServer\obj\Debug\RepairLogServer.csproj.GenerateResource.cache
+E:\Coding\Project VS\NAU-project\RepairLog\RepairLogServer\obj\Debug\RepairLogServer.csproj.CoreCompileInputs.cache
+E:\Coding\Project VS\NAU-project\RepairLog\RepairLogServer\obj\Debug\RepairLo.4153F59E.Up2Date
+E:\Coding\Project VS\NAU-project\RepairLog\RepairLogServer\obj\Debug\RepairLogServer.exe
+E:\Coding\Project VS\NAU-project\RepairLog\RepairLogServer\obj\Debug\RepairLogServer.pdb

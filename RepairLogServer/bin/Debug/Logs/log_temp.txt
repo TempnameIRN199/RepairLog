@@ -1,0 +1,553 @@
+Opened connection at 24.04.2024 22:49:44 +03:00
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[DevName] AS [DevName], 
+    [Extent1].[IsWorking] AS [IsWorking]
+    FROM [dbo].[Devices] AS [Extent1]
+-- Executing at 24.04.2024 22:49:44 +03:00
+-- Completed in 0 ms with result: SqlDataReader
+
+Closed connection at 24.04.2024 22:49:44 +03:00
+Opened connection at 24.04.2024 22:49:55 +03:00
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[DevName] AS [DevName], 
+    [Extent1].[IsWorking] AS [IsWorking]
+    FROM [dbo].[Devices] AS [Extent1]
+-- Executing at 24.04.2024 22:49:55 +03:00
+-- Completed in 0 ms with result: SqlDataReader
+
+Closed connection at 24.04.2024 22:49:55 +03:00
+Opened connection at 24.04.2024 22:59:25 +03:00
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Description] AS [Description], 
+    [Extent1].[Cause] AS [Cause], 
+    [Extent1].[DeviceId] AS [DeviceId]
+    FROM [dbo].[Breakdowns] AS [Extent1]
+-- Executing at 24.04.2024 22:59:26 +03:00
+-- Completed in 1 ms with result: SqlDataReader
+
+Closed connection at 24.04.2024 22:59:26 +03:00
+Opened connection at 24.04.2024 23:06:07 +03:00
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Description] AS [Description], 
+    [Extent1].[Cause] AS [Cause], 
+    [Extent1].[DeviceId] AS [DeviceId]
+    FROM [dbo].[Breakdowns] AS [Extent1]
+-- Executing at 24.04.2024 23:06:07 +03:00
+-- Completed in 1 ms with result: SqlDataReader
+
+Closed connection at 24.04.2024 23:06:07 +03:00
+Opened connection at 24.04.2024 23:08:02 +03:00
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Description] AS [Description], 
+    [Extent1].[Cause] AS [Cause], 
+    [Extent1].[DeviceId] AS [DeviceId]
+    FROM [dbo].[Breakdowns] AS [Extent1]
+-- Executing at 24.04.2024 23:08:02 +03:00
+-- Completed in 1 ms with result: SqlDataReader
+
+Closed connection at 24.04.2024 23:08:02 +03:00
+Opened connection at 24.04.2024 23:08:04 +03:00
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[DevName] AS [DevName], 
+    [Extent1].[IsWorking] AS [IsWorking]
+    FROM [dbo].[Devices] AS [Extent1]
+-- Executing at 24.04.2024 23:08:04 +03:00
+-- Completed in 0 ms with result: SqlDataReader
+
+Closed connection at 24.04.2024 23:08:04 +03:00
+Opened connection at 24.04.2024 23:08:06 +03:00
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Description] AS [Description], 
+    [Extent1].[Cause] AS [Cause], 
+    [Extent1].[DeviceId] AS [DeviceId]
+    FROM [dbo].[Breakdowns] AS [Extent1]
+-- Executing at 24.04.2024 23:08:06 +03:00
+-- Completed in 0 ms with result: SqlDataReader
+
+Closed connection at 24.04.2024 23:08:06 +03:00
+Opened connection at 24.04.2024 23:08:55 +03:00
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Description] AS [Description], 
+    [Extent1].[Cause] AS [Cause], 
+    [Extent1].[DeviceId] AS [DeviceId]
+    FROM [dbo].[Breakdowns] AS [Extent1]
+-- Executing at 24.04.2024 23:08:55 +03:00
+-- Completed in 1 ms with result: SqlDataReader
+
+Closed connection at 24.04.2024 23:08:55 +03:00
+Opened connection at 24.04.2024 23:09:18 +03:00
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Description] AS [Description], 
+    [Extent1].[Cause] AS [Cause], 
+    [Extent1].[DeviceId] AS [DeviceId]
+    FROM [dbo].[Breakdowns] AS [Extent1]
+-- Executing at 24.04.2024 23:09:18 +03:00
+-- Completed in 0 ms with result: SqlDataReader
+
+Closed connection at 24.04.2024 23:09:18 +03:00
+Opened connection at 24.04.2024 23:11:10 +03:00
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Description] AS [Description], 
+    [Extent1].[Cause] AS [Cause], 
+    [Extent1].[DeviceId] AS [DeviceId]
+    FROM [dbo].[Breakdowns] AS [Extent1]
+-- Executing at 24.04.2024 23:11:20 +03:00
+-- Completed in 0 ms with result: SqlDataReader
+
+Closed connection at 24.04.2024 23:11:24 +03:00
+Opened connection at 24.04.2024 23:36:24 +03:00
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[DevName] AS [DevName], 
+    [Extent1].[IsWorking] AS [IsWorking]
+    FROM [dbo].[Devices] AS [Extent1]
+-- Executing at 24.04.2024 23:36:24 +03:00
+-- Completed in 7 ms with result: SqlDataReader
+
+Closed connection at 24.04.2024 23:36:24 +03:00
+Opened connection at 24.04.2024 23:36:50 +03:00
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Description] AS [Description], 
+    [Extent1].[Cause] AS [Cause], 
+    [Extent1].[DeviceId] AS [DeviceId]
+    FROM [dbo].[Breakdowns] AS [Extent1]
+-- Executing at 24.04.2024 23:36:50 +03:00
+-- Completed in 13 ms with result: SqlDataReader
+
+Closed connection at 24.04.2024 23:36:50 +03:00
+Opened connection at 24.04.2024 23:37:29 +03:00
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Description] AS [Description], 
+    [Extent1].[Cause] AS [Cause], 
+    [Extent1].[DeviceId] AS [DeviceId]
+    FROM [dbo].[Breakdowns] AS [Extent1]
+-- Executing at 24.04.2024 23:37:30 +03:00
+-- Completed in 2 ms with result: SqlDataReader
+
+Closed connection at 24.04.2024 23:37:30 +03:00
+Opened connection at 24.04.2024 23:40:00 +03:00
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Description] AS [Description], 
+    [Extent1].[Cause] AS [Cause], 
+    [Extent1].[DeviceId] AS [DeviceId]
+    FROM [dbo].[Breakdowns] AS [Extent1]
+-- Executing at 24.04.2024 23:40:00 +03:00
+-- Completed in 1 ms with result: SqlDataReader
+
+Closed connection at 24.04.2024 23:40:00 +03:00
+Opened connection at 24.04.2024 23:40:00 +03:00
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[DevName] AS [DevName], 
+    [Extent1].[IsWorking] AS [IsWorking]
+    FROM [dbo].[Devices] AS [Extent1]
+-- Executing at 24.04.2024 23:40:00 +03:00
+-- Completed in 2 ms with result: SqlDataReader
+
+Closed connection at 24.04.2024 23:40:00 +03:00
+Opened connection at 24.04.2024 23:42:03 +03:00
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[DevName] AS [DevName], 
+    [Extent1].[IsWorking] AS [IsWorking]
+    FROM [dbo].[Devices] AS [Extent1]
+-- Executing at 24.04.2024 23:42:03 +03:00
+-- Completed in 2 ms with result: SqlDataReader
+
+Closed connection at 24.04.2024 23:42:03 +03:00
+Opened connection at 24.04.2024 23:42:04 +03:00
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Description] AS [Description], 
+    [Extent1].[Cause] AS [Cause], 
+    [Extent1].[DeviceId] AS [DeviceId]
+    FROM [dbo].[Breakdowns] AS [Extent1]
+-- Executing at 24.04.2024 23:42:04 +03:00
+-- Completed in 3 ms with result: SqlDataReader
+
+Closed connection at 24.04.2024 23:42:04 +03:00
+Opened connection at 24.04.2024 23:42:04 +03:00
+SELECT TOP (1) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[DevName] AS [DevName], 
+    [Extent1].[IsWorking] AS [IsWorking]
+    FROM [dbo].[Devices] AS [Extent1]
+    WHERE [Extent1].[Id] = @p__linq__0
+-- p__linq__0: '1' (Type = Int32, IsNullable = false)
+-- Executing at 24.04.2024 23:42:04 +03:00
+-- Completed in 4 ms with result: SqlDataReader
+
+Closed connection at 24.04.2024 23:42:04 +03:00
+Opened connection at 24.04.2024 23:48:23 +03:00
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Description] AS [Description], 
+    [Extent1].[Cause] AS [Cause], 
+    [Extent1].[DeviceId] AS [DeviceId]
+    FROM [dbo].[Breakdowns] AS [Extent1]
+-- Executing at 24.04.2024 23:48:23 +03:00
+-- Completed in 1 ms with result: SqlDataReader
+
+Closed connection at 24.04.2024 23:48:23 +03:00
+Opened connection at 24.04.2024 23:48:23 +03:00
+SELECT TOP (1) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[DevName] AS [DevName], 
+    [Extent1].[IsWorking] AS [IsWorking]
+    FROM [dbo].[Devices] AS [Extent1]
+    WHERE [Extent1].[Id] = @p__linq__0
+-- p__linq__0: '1' (Type = Int32, IsNullable = false)
+-- Executing at 24.04.2024 23:48:23 +03:00
+-- Completed in 1 ms with result: SqlDataReader
+
+Closed connection at 24.04.2024 23:48:23 +03:00
+Opened connection at 24.04.2024 23:54:17 +03:00
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Description] AS [Description], 
+    [Extent1].[Cause] AS [Cause], 
+    [Extent1].[DeviceId] AS [DeviceId]
+    FROM [dbo].[Breakdowns] AS [Extent1]
+-- Executing at 24.04.2024 23:54:17 +03:00
+-- Completed in 4 ms with result: SqlDataReader
+
+Closed connection at 24.04.2024 23:54:17 +03:00
+Opened connection at 24.04.2024 23:54:17 +03:00
+SELECT TOP (1) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[DevName] AS [DevName], 
+    [Extent1].[IsWorking] AS [IsWorking]
+    FROM [dbo].[Devices] AS [Extent1]
+    WHERE [Extent1].[Id] = @p__linq__0
+-- p__linq__0: '1' (Type = Int32, IsNullable = false)
+-- Executing at 24.04.2024 23:54:17 +03:00
+-- Completed in 13 ms with result: SqlDataReader
+
+Closed connection at 24.04.2024 23:54:17 +03:00
+Opened connection at 24.04.2024 23:54:33 +03:00
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Description] AS [Description], 
+    [Extent1].[Cause] AS [Cause], 
+    [Extent1].[DeviceId] AS [DeviceId]
+    FROM [dbo].[Breakdowns] AS [Extent1]
+-- Executing at 24.04.2024 23:54:33 +03:00
+-- Completed in 1 ms with result: SqlDataReader
+
+Closed connection at 24.04.2024 23:54:33 +03:00
+Opened connection at 24.04.2024 23:54:33 +03:00
+SELECT TOP (1) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[DevName] AS [DevName], 
+    [Extent1].[IsWorking] AS [IsWorking]
+    FROM [dbo].[Devices] AS [Extent1]
+    WHERE [Extent1].[Id] = @p__linq__0
+-- p__linq__0: '1' (Type = Int32, IsNullable = false)
+-- Executing at 24.04.2024 23:54:33 +03:00
+-- Completed in 2 ms with result: SqlDataReader
+
+Closed connection at 24.04.2024 23:54:33 +03:00
+Opened connection at 25.04.2024 00:10:55 +03:00
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[DeviceId] AS [DeviceId], 
+    [Extent1].[StartDate] AS [StartDate], 
+    [Extent1].[EndDate] AS [EndDate], 
+    [Extent1].[Status] AS [Status]
+    FROM [dbo].[Repairs] AS [Extent1]
+-- Executing at 25.04.2024 00:10:55 +03:00
+-- Completed in 2 ms with result: SqlDataReader
+
+Closed connection at 25.04.2024 00:10:55 +03:00
+Opened connection at 25.04.2024 00:11:13 +03:00
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[DeviceId] AS [DeviceId], 
+    [Extent1].[StartDate] AS [StartDate], 
+    [Extent1].[EndDate] AS [EndDate], 
+    [Extent1].[Status] AS [Status]
+    FROM [dbo].[Repairs] AS [Extent1]
+-- Executing at 25.04.2024 00:11:13 +03:00
+-- Completed in 1 ms with result: SqlDataReader
+
+Closed connection at 25.04.2024 00:11:13 +03:00
+Opened connection at 25.04.2024 00:11:47 +03:00
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[DeviceId] AS [DeviceId], 
+    [Extent1].[StartDate] AS [StartDate], 
+    [Extent1].[EndDate] AS [EndDate], 
+    [Extent1].[Status] AS [Status]
+    FROM [dbo].[Repairs] AS [Extent1]
+-- Executing at 25.04.2024 00:11:47 +03:00
+-- Completed in 1 ms with result: SqlDataReader
+
+Closed connection at 25.04.2024 00:11:47 +03:00
+Opened connection at 25.04.2024 00:11:47 +03:00
+SELECT TOP (1) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[DevName] AS [DevName], 
+    [Extent1].[IsWorking] AS [IsWorking]
+    FROM [dbo].[Devices] AS [Extent1]
+    WHERE [Extent1].[Id] = @p__linq__0
+-- p__linq__0: '1' (Type = Int32, IsNullable = false)
+-- Executing at 25.04.2024 00:11:47 +03:00
+-- Completed in 2 ms with result: SqlDataReader
+
+Closed connection at 25.04.2024 00:11:47 +03:00
+Opened connection at 25.04.2024 00:12:29 +03:00
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Description] AS [Description], 
+    [Extent1].[Cause] AS [Cause], 
+    [Extent1].[DeviceId] AS [DeviceId]
+    FROM [dbo].[Breakdowns] AS [Extent1]
+-- Executing at 25.04.2024 00:12:29 +03:00
+-- Completed in 5 ms with result: SqlDataReader
+
+Closed connection at 25.04.2024 00:12:29 +03:00
+Opened connection at 25.04.2024 00:12:29 +03:00
+SELECT TOP (1) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[DevName] AS [DevName], 
+    [Extent1].[IsWorking] AS [IsWorking]
+    FROM [dbo].[Devices] AS [Extent1]
+    WHERE [Extent1].[Id] = @p__linq__0
+-- p__linq__0: '1' (Type = Int32, IsNullable = false)
+-- Executing at 25.04.2024 00:12:29 +03:00
+-- Completed in 7 ms with result: SqlDataReader
+
+Closed connection at 25.04.2024 00:12:29 +03:00
+Opened connection at 25.04.2024 00:12:30 +03:00
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[DevName] AS [DevName], 
+    [Extent1].[IsWorking] AS [IsWorking]
+    FROM [dbo].[Devices] AS [Extent1]
+-- Executing at 25.04.2024 00:12:30 +03:00
+-- Completed in 1 ms with result: SqlDataReader
+
+Closed connection at 25.04.2024 00:12:30 +03:00
+Opened connection at 25.04.2024 00:12:33 +03:00
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[DeviceId] AS [DeviceId], 
+    [Extent1].[StartDate] AS [StartDate], 
+    [Extent1].[EndDate] AS [EndDate], 
+    [Extent1].[Status] AS [Status]
+    FROM [dbo].[Repairs] AS [Extent1]
+-- Executing at 25.04.2024 00:12:33 +03:00
+-- Completed in 1 ms with result: SqlDataReader
+
+Closed connection at 25.04.2024 00:12:33 +03:00
+Opened connection at 25.04.2024 00:12:33 +03:00
+SELECT TOP (1) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[DevName] AS [DevName], 
+    [Extent1].[IsWorking] AS [IsWorking]
+    FROM [dbo].[Devices] AS [Extent1]
+    WHERE [Extent1].[Id] = @p__linq__0
+-- p__linq__0: '1' (Type = Int32, IsNullable = false)
+-- Executing at 25.04.2024 00:12:33 +03:00
+-- Completed in 1 ms with result: SqlDataReader
+
+Closed connection at 25.04.2024 00:12:33 +03:00
+Opened connection at 25.04.2024 00:12:58 +03:00
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[DeviceId] AS [DeviceId], 
+    [Extent1].[StartDate] AS [StartDate], 
+    [Extent1].[EndDate] AS [EndDate], 
+    [Extent1].[Status] AS [Status]
+    FROM [dbo].[Repairs] AS [Extent1]
+-- Executing at 25.04.2024 00:12:58 +03:00
+-- Completed in 8 ms with result: SqlDataReader
+
+Closed connection at 25.04.2024 00:12:59 +03:00
+Opened connection at 25.04.2024 00:12:59 +03:00
+SELECT TOP (1) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[DevName] AS [DevName], 
+    [Extent1].[IsWorking] AS [IsWorking]
+    FROM [dbo].[Devices] AS [Extent1]
+    WHERE [Extent1].[Id] = @p__linq__0
+-- p__linq__0: '1' (Type = Int32, IsNullable = false)
+-- Executing at 25.04.2024 00:12:59 +03:00
+-- Completed in 1 ms with result: SqlDataReader
+
+Closed connection at 25.04.2024 00:12:59 +03:00
+Opened connection at 25.04.2024 00:13:17 +03:00
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[DeviceId] AS [DeviceId], 
+    [Extent1].[StartDate] AS [StartDate], 
+    [Extent1].[EndDate] AS [EndDate], 
+    [Extent1].[Status] AS [Status]
+    FROM [dbo].[Repairs] AS [Extent1]
+-- Executing at 25.04.2024 00:13:17 +03:00
+-- Completed in 2 ms with result: SqlDataReader
+
+Closed connection at 25.04.2024 00:13:17 +03:00
+Opened connection at 25.04.2024 00:13:17 +03:00
+SELECT TOP (1) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[DevName] AS [DevName], 
+    [Extent1].[IsWorking] AS [IsWorking]
+    FROM [dbo].[Devices] AS [Extent1]
+    WHERE [Extent1].[Id] = @p__linq__0
+-- p__linq__0: '1' (Type = Int32, IsNullable = false)
+-- Executing at 25.04.2024 00:13:17 +03:00
+-- Completed in 2 ms with result: SqlDataReader
+
+Closed connection at 25.04.2024 00:13:17 +03:00
+Opened connection at 25.04.2024 00:22:42 +03:00
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[DeviceId] AS [DeviceId]
+    FROM [dbo].[Repaireds] AS [Extent1]
+-- Executing at 25.04.2024 00:22:42 +03:00
+-- Completed in 1 ms with result: SqlDataReader
+
+Closed connection at 25.04.2024 00:22:42 +03:00
+Opened connection at 25.04.2024 00:27:42 +03:00
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[DeviceId] AS [DeviceId]
+    FROM [dbo].[Non_repairable] AS [Extent1]
+-- Executing at 25.04.2024 00:27:42 +03:00
+-- Completed in 2 ms with result: SqlDataReader
+
+Closed connection at 25.04.2024 00:27:42 +03:00
+Opened connection at 25.04.2024 00:27:49 +03:00
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[DeviceId] AS [DeviceId]
+    FROM [dbo].[Repaireds] AS [Extent1]
+-- Executing at 25.04.2024 00:27:49 +03:00
+-- Completed in 1 ms with result: SqlDataReader
+
+Closed connection at 25.04.2024 00:27:49 +03:00
+Opened connection at 25.04.2024 00:27:49 +03:00
+SELECT TOP (1) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[DevName] AS [DevName], 
+    [Extent1].[IsWorking] AS [IsWorking]
+    FROM [dbo].[Devices] AS [Extent1]
+    WHERE [Extent1].[Id] = @p__linq__0
+-- p__linq__0: '1' (Type = Int32, IsNullable = false)
+-- Executing at 25.04.2024 00:27:49 +03:00
+-- Completed in 1 ms with result: SqlDataReader
+
+Closed connection at 25.04.2024 00:27:49 +03:00
+Opened connection at 25.04.2024 00:27:51 +03:00
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[DeviceId] AS [DeviceId]
+    FROM [dbo].[Non_repairable] AS [Extent1]
+-- Executing at 25.04.2024 00:27:51 +03:00
+-- Completed in 1 ms with result: SqlDataReader
+
+Closed connection at 25.04.2024 00:27:51 +03:00
+Opened connection at 25.04.2024 00:27:51 +03:00
+SELECT TOP (1) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[DevName] AS [DevName], 
+    [Extent1].[IsWorking] AS [IsWorking]
+    FROM [dbo].[Devices] AS [Extent1]
+    WHERE [Extent1].[Id] = @p__linq__0
+-- p__linq__0: '1' (Type = Int32, IsNullable = false)
+-- Executing at 25.04.2024 00:27:51 +03:00
+-- Completed in 0 ms with result: SqlDataReader
+
+Closed connection at 25.04.2024 00:27:51 +03:00
+Opened connection at 25.04.2024 00:27:53 +03:00
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[DeviceId] AS [DeviceId]
+    FROM [dbo].[Repaireds] AS [Extent1]
+-- Executing at 25.04.2024 00:27:53 +03:00
+-- Completed in 0 ms with result: SqlDataReader
+
+Closed connection at 25.04.2024 00:27:53 +03:00
+Opened connection at 25.04.2024 00:27:53 +03:00
+SELECT TOP (1) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[DevName] AS [DevName], 
+    [Extent1].[IsWorking] AS [IsWorking]
+    FROM [dbo].[Devices] AS [Extent1]
+    WHERE [Extent1].[Id] = @p__linq__0
+-- p__linq__0: '1' (Type = Int32, IsNullable = false)
+-- Executing at 25.04.2024 00:27:53 +03:00
+-- Completed in 0 ms with result: SqlDataReader
+
+Closed connection at 25.04.2024 00:27:53 +03:00
+Opened connection at 25.04.2024 00:27:55 +03:00
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[DeviceId] AS [DeviceId], 
+    [Extent1].[StartDate] AS [StartDate], 
+    [Extent1].[EndDate] AS [EndDate], 
+    [Extent1].[Status] AS [Status]
+    FROM [dbo].[Repairs] AS [Extent1]
+-- Executing at 25.04.2024 00:27:55 +03:00
+-- Completed in 1 ms with result: SqlDataReader
+
+Closed connection at 25.04.2024 00:27:55 +03:00
+Opened connection at 25.04.2024 00:27:55 +03:00
+SELECT TOP (1) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[DevName] AS [DevName], 
+    [Extent1].[IsWorking] AS [IsWorking]
+    FROM [dbo].[Devices] AS [Extent1]
+    WHERE [Extent1].[Id] = @p__linq__0
+-- p__linq__0: '1' (Type = Int32, IsNullable = false)
+-- Executing at 25.04.2024 00:27:55 +03:00
+-- Completed in 0 ms with result: SqlDataReader
+
+Closed connection at 25.04.2024 00:27:55 +03:00
+Opened connection at 25.04.2024 00:27:56 +03:00
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Description] AS [Description], 
+    [Extent1].[Cause] AS [Cause], 
+    [Extent1].[DeviceId] AS [DeviceId]
+    FROM [dbo].[Breakdowns] AS [Extent1]
+-- Executing at 25.04.2024 00:27:56 +03:00
+-- Completed in 1 ms with result: SqlDataReader
+
+Closed connection at 25.04.2024 00:27:56 +03:00
+Opened connection at 25.04.2024 00:27:56 +03:00
+SELECT TOP (1) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[DevName] AS [DevName], 
+    [Extent1].[IsWorking] AS [IsWorking]
+    FROM [dbo].[Devices] AS [Extent1]
+    WHERE [Extent1].[Id] = @p__linq__0
+-- p__linq__0: '1' (Type = Int32, IsNullable = false)
+-- Executing at 25.04.2024 00:27:56 +03:00
+-- Completed in 0 ms with result: SqlDataReader
+
+Closed connection at 25.04.2024 00:27:56 +03:00
+Opened connection at 25.04.2024 00:27:57 +03:00
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[DevName] AS [DevName], 
+    [Extent1].[IsWorking] AS [IsWorking]
+    FROM [dbo].[Devices] AS [Extent1]
+-- Executing at 25.04.2024 00:27:57 +03:00
+-- Completed in 0 ms with result: SqlDataReader
+
+Closed connection at 25.04.2024 00:27:57 +03:00
