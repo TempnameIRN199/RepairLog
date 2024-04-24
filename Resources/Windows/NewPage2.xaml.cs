@@ -1,0 +1,9 @@
+namespace RepairLog.Resources.Windows;
+
+public partial class NewPage2 : ContentPage
+{
+	public NewPage2()
+	{
+		InitializeComponent();
+	}
+}

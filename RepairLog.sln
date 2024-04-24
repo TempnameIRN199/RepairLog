@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepairLog", "RepairLog.csproj", "{C2764BFB-E8A8-48C3-B59F-47FFBD11DD6C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C2764BFB-E8A8-48C3-B59F-47FFBD11DD6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2764BFB-E8A8-48C3-B59F-47FFBD11DD6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2764BFB-E8A8-48C3-B59F-47FFBD11DD6C}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{C2764BFB-E8A8-48C3-B59F-47FFBD11DD6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2764BFB-E8A8-48C3-B59F-47FFBD11DD6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2764BFB-E8A8-48C3-B59F-47FFBD11DD6C}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {68B22B7C-728C-4466-92A5-52859AD419AD}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,90 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Coding\\RepairLog\\RepairLog\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C2764BFB-E8A8-48C3-B59F-47FFBD11DD6C}|RepairLog.csproj|d:\\coding\\repairlog\\repairlog\\resources\\windows\\newpage1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C2764BFB-E8A8-48C3-B59F-47FFBD11DD6C}|RepairLog.csproj|solutionrelative:resources\\windows\\newpage1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2764BFB-E8A8-48C3-B59F-47FFBD11DD6C}|RepairLog.csproj|d:\\coding\\repairlog\\repairlog\\resources\\windows\\newpage1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2764BFB-E8A8-48C3-B59F-47FFBD11DD6C}|RepairLog.csproj|solutionrelative:resources\\windows\\newpage1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2764BFB-E8A8-48C3-B59F-47FFBD11DD6C}|RepairLog.csproj|d:\\coding\\repairlog\\repairlog\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C2764BFB-E8A8-48C3-B59F-47FFBD11DD6C}|RepairLog.csproj|solutionrelative:appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2764BFB-E8A8-48C3-B59F-47FFBD11DD6C}|RepairLog.csproj|d:\\coding\\repairlog\\repairlog\\resources\\classes\\databaseconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2764BFB-E8A8-48C3-B59F-47FFBD11DD6C}|RepairLog.csproj|solutionrelative:resources\\classes\\databaseconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NewPage1.xaml.cs",
+              "DocumentMoniker": "D:\\Coding\\RepairLog\\RepairLog\\Resources\\Windows\\NewPage1.xaml.cs",
+              "RelativeDocumentMoniker": "Resources\\Windows\\NewPage1.xaml.cs",
+              "ToolTip": "D:\\Coding\\RepairLog\\RepairLog\\Resources\\Windows\\NewPage1.xaml.cs",
+              "RelativeToolTip": "Resources\\Windows\\NewPage1.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T13:36:32.527Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NewPage1.xaml",
+              "DocumentMoniker": "D:\\Coding\\RepairLog\\RepairLog\\Resources\\Windows\\NewPage1.xaml",
+              "RelativeDocumentMoniker": "Resources\\Windows\\NewPage1.xaml",
+              "ToolTip": "D:\\Coding\\RepairLog\\RepairLog\\Resources\\Windows\\NewPage1.xaml",
+              "RelativeToolTip": "Resources\\Windows\\NewPage1.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-09T13:33:19.088Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DatabaseConnection.cs",
+              "DocumentMoniker": "D:\\Coding\\RepairLog\\RepairLog\\Resources\\Classes\\DatabaseConnection.cs",
+              "RelativeDocumentMoniker": "Resources\\Classes\\DatabaseConnection.cs",
+              "ToolTip": "D:\\Coding\\RepairLog\\RepairLog\\Resources\\Classes\\DatabaseConnection.cs",
+              "RelativeToolTip": "Resources\\Classes\\DatabaseConnection.cs",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAAACcAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T14:02:22.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "D:\\Coding\\RepairLog\\RepairLog\\AppShell.xaml",
+              "RelativeDocumentMoniker": "AppShell.xaml",
+              "ToolTip": "D:\\Coding\\RepairLog\\RepairLog\\AppShell.xaml",
+              "RelativeToolTip": "AppShell.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-09T13:46:42.414Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
