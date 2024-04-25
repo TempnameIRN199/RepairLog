@@ -16,6 +16,8 @@ using System.Windows.Shapes;
 using Newtonsoft.Json;
 using System.IO;
 using System.Diagnostics;
+using RepairLogServer.Workspace;
+using RepairLogServer.Database;
 
 namespace RepairLogServer
 {
@@ -24,7 +26,7 @@ namespace RepairLogServer
     /// </summary>
     public partial class MainWindow : Window
     {
-        public Context _context { get; set; }
+        public NintendoContext _context { get; set; }
 
         public List<Device> Devices { get; set; }
         public List<Breakdown> Breakdowns { get; set; }
@@ -46,11 +48,12 @@ namespace RepairLogServer
 
         public void LoadData()
         {
-            _context = new Context();
+            _context = new NintendoContext();
         }
 
         private void _comboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
+            _FillComboBox();
             if (_comboBox.SelectedIndex == 0)
             {
                 Devices = _context.Devices.AsNoTracking().ToList();
@@ -177,7 +180,16 @@ namespace RepairLogServer
 
         private void _btnAdd_Click(object sender, RoutedEventArgs e)
         {
-
+            if (_comboBox.SelectedItem != null)
+            {
+                Add add = new Add(_context, _comboBox.SelectedIndex);
+                add.ShowDialog();
+                _comboBox_SelectionChanged(null, null);
+            }
+            else
+            {
+                MessageBox.Show("Оберіть щось з таблиць для пошуку");
+            }
         }
 
         private void _btnDelete_Click(object sender, RoutedEventArgs e)
@@ -251,7 +263,75 @@ namespace RepairLogServer
 
         private void _listView_MouseDoubleClick(object sender, MouseButtonEventArgs e)
         {
-
+            if (_comboBox.SelectedIndex == 0)
+            {
+                if (_listView.SelectedItem != null)
+                {
+                    foreach (Device item in _listView.SelectedItems)
+                    {
+                        device = _context.Devices.Find(item.Id);
+                    }
+                    Edit edit = new Edit(_context, _comboBox.SelectedIndex, device);
+                    edit.ShowDialog();
+                    _comboBox_SelectionChanged(null, null);
+                }
+            }
+            else if (_comboBox.SelectedIndex == 1)
+            {
+                if (_listView.SelectedItem != null)
+                {
+                    foreach (Breakdown item in _listView.SelectedItems)
+                    {
+                        breakdown = _context.Breakdowns.Find(item.Id);
+                    }
+                    Edit edit = new Edit(_context, _comboBox.SelectedIndex, null, breakdown);
+                    edit.ShowDialog();
+                    _comboBox_SelectionChanged(null, null);
+                }
+            }
+            else if (_comboBox.SelectedIndex == 2)
+            {
+                if (_listView.SelectedItem != null)
+                {
+                    foreach (Repair item in _listView.SelectedItems)
+                    {
+                        repair = _context.Repairs.Find(item.Id);
+                    }
+                    Edit edit = new Edit(_context, _comboBox.SelectedIndex, null, null, repair);
+                    edit.ShowDialog();
+                    _comboBox_SelectionChanged(null, null);
+                }
+            }
+            else if (_comboBox.SelectedIndex == 3)
+            {
+                if (_listView.SelectedItem != null)
+                {
+                    foreach (Repaired item in _listView.SelectedItems)
+                    {
+                        repaired = _context.Repaireds.Find(item.Id);
+                    }
+                    Edit edit = new Edit(_context, _comboBox.SelectedIndex, null, null, null, repaired);
+                    edit.ShowDialog();
+                    _comboBox_SelectionChanged(null, null);
+                }
+            }
+            else if (_comboBox.SelectedIndex == 4)
+            {
+                if (_listView.SelectedItem != null)
+                {
+                    foreach (Non_repairable item in _listView.SelectedItems)
+                    {
+                        non_repairable = _context.Non_repairables.Find(item.Id);
+                    }
+                    Edit edit = new Edit(_context, _comboBox.SelectedIndex, null, null, null, null, non_repairable);
+                    edit.ShowDialog();
+                    _comboBox_SelectionChanged(null, null);
+                }
+            }
+            else
+            {
+                MessageBox.Show("Оберіть щось з таблиць для пошуку");
+            }
         }
 
         private void _listView_MouseDown(object sender, MouseButtonEventArgs e)
@@ -300,6 +380,112 @@ namespace RepairLogServer
             process.StartInfo.Arguments = $"/k type \"{tempFilePath}\"";
             process.Start();
             process.WaitForExit();
+        }
+
+        private void _btnSearch_Click(object sender, RoutedEventArgs e)
+        {
+            if (_comboBox.SelectedIndex == 0)
+            {
+                if (_comboBoxSearch.SelectedIndex == 0)
+                {
+                    string search = _textBox.Text;
+                    var result = _context.Devices.Where(d => d.DevName.Contains(search)).ToList();
+                    _listView.ItemsSource = result;
+                }
+                else if (_comboBoxSearch.SelectedIndex == 1)
+                {
+                    string search = Boolean.Parse(_textBox.Text).ToString();
+                    var result = _context.Devices.Where(d => d.IsWorking.ToString().Contains(search)).ToList();
+                    _listView.ItemsSource = result;
+                }
+            }
+            else if (_comboBox.SelectedIndex == 1)
+            {
+                if (_comboBoxSearch.SelectedIndex == 0)
+                {
+                    string search = _textBox.Text;
+                    var result = _context.Breakdowns.Where(d => d.Description.Contains(search)).ToList();
+                    _listView.ItemsSource = result;
+                }
+                else if (_comboBoxSearch.SelectedIndex == 1)
+                {
+                    string search = _textBox.Text;
+                    var result = _context.Breakdowns.Where(d => d.Cause.Contains(search)).ToList();
+                    _listView.ItemsSource = result;
+                }
+                else if (_comboBoxSearch.SelectedIndex == 2)
+                {
+                    string search = _textBox.Text;
+                    var result = _context.Breakdowns.Where(d => d.Device.DevName.Contains(search)).ToList();
+                    _listView.ItemsSource = result;
+                }
+            }
+            else if (_comboBox.SelectedIndex == 2)
+            {
+                if (_comboBoxSearch.SelectedIndex == 0)
+                {
+                    string search = _textBox.Text;
+                    var result = _context.Repairs.Where(d => d.Device.DevName.Contains(search)).ToList();
+                    _listView.ItemsSource = result;
+                }
+                else if (_comboBoxSearch.SelectedIndex == 1)
+                {
+                    string search = Enum.Parse(typeof(Statused), _textBox.Text).ToString();
+                    var result = _context.Repairs.Where(d => d.Status.ToString().Contains(search)).ToList();
+                    _listView.ItemsSource = result;
+                }
+            }
+            else if (_comboBox.SelectedIndex == 3)
+            {
+                if (_comboBoxSearch.SelectedIndex == 0)
+                {
+                    string search = _textBox.Text;
+                    var result = _context.Repaireds.Where(d => d.Device.DevName.Contains(search)).ToList();
+                    _listView.ItemsSource = result;
+                }
+            }
+            else if (_comboBox.SelectedIndex == 4)
+            {
+                if (_comboBoxSearch.SelectedIndex == 0)
+                {
+                    string search = _textBox.Text;
+                    var result = _context.Non_repairables.Where(d => d.Device.DevName.Contains(search)).ToList();
+                    _listView.ItemsSource = result;
+                }
+            }
+        }
+
+        private void _FillComboBox()
+        {
+            if (_comboBox.SelectedIndex == 0)
+            {
+                _comboBoxSearch.Items.Clear();
+                _comboBoxSearch.Items.Add("Name");
+                _comboBoxSearch.Items.Add("Is Working");
+            }
+            else if (_comboBox.SelectedIndex == 1)
+            {
+                _comboBoxSearch.Items.Clear();
+                _comboBoxSearch.Items.Add("Description");
+                _comboBoxSearch.Items.Add("Cause");
+                _comboBoxSearch.Items.Add("Device");
+            }
+            else if (_comboBox.SelectedIndex == 2)
+            {
+                _comboBoxSearch.Items.Clear();
+                _comboBoxSearch.Items.Add("Device");
+                _comboBoxSearch.Items.Add("Status");
+            }
+            else if (_comboBox.SelectedIndex == 3)
+            {
+                _comboBoxSearch.Items.Clear();
+                _comboBoxSearch.Items.Add("Device");
+            }
+            else if (_comboBox.SelectedIndex == 4)
+            {
+                _comboBoxSearch.Items.Clear();
+                _comboBoxSearch.Items.Add("Device");
+            }
         }
     }
 }

@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data.Entity;
 using System.ComponentModel.DataAnnotations;
+using RepairLogServer.Database;
 
 namespace RepairLog_Server.Database
 {
@@ -24,6 +25,6 @@ namespace RepairLog_Server.Database
         public DateTime EndDate { get; set; }
 
         [Required]
-        public string Status { get; set; }
+        public Statused Status { get; set; }
     }
 }

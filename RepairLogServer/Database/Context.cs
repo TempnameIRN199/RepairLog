@@ -13,11 +13,11 @@ using System.Windows.Markup;
 
 namespace RepairLog_Server.Database
 {
-    public class Context : DbContext
+    public class NintendoContext : DbContext
     {
-        public Context() : base("NintendoContext")
+        public NintendoContext() : base("NintendoContext")
         {
-            System.Data.Entity.Database.SetInitializer(new MigrateDatabaseToLatestVersion<Context, Configuration>());
+            System.Data.Entity.Database.SetInitializer(new MigrateDatabaseToLatestVersion<NintendoContext, Configuration>());
             Database.Log = sql =>
             {
                 using (StreamWriter file = File.AppendText(@"Logs\log.json"))
@@ -28,11 +28,6 @@ namespace RepairLog_Server.Database
                     };
                     serializer.Serialize(file, sql);
                 }
-                //using (StreamWriter file = File.AppendText(@"\Logs\log.json"))
-                //{
-                //    JsonSerializer serializer = new JsonSerializer();
-                //    serializer.Serialize(file, sql);
-                //}
             };
 
         }

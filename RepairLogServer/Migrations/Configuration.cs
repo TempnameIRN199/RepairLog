@@ -5,14 +5,14 @@
     using System.Data.Entity.Migrations;
     using System.Linq;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<RepairLog_Server.Database.Context>
+    internal sealed class Configuration : DbMigrationsConfiguration<RepairLog_Server.Database.NintendoContext>
     {
         public Configuration()
         {
             AutomaticMigrationsEnabled = false;
         }
 
-        protected override void Seed(RepairLog_Server.Database.Context context)
+        protected override void Seed(RepairLog_Server.Database.NintendoContext context)
         {
             //  This method will be called after migrating to the latest version.
 

@@ -32,6 +32,8 @@
                     <RowDefinition Height="*"/>
                     <RowDefinition Height="*"/>
                     <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
                 </Grid.RowDefinitions>
                 <ComboBox x:Name="_comboBox" Grid.Row="0" Margin="5" Width="150" Height="30"
                   VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="14"
@@ -46,9 +48,23 @@
                 <Button x:Name="_btnAdd" Grid.Row="1" Margin="0,-70,0,0" Width="150" Height="30" Content="Додати"
                 VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="14"
                 Click="_btnAdd_Click"/>
-                <Button x:Name="_btnDelete" Grid.Row="2" Margin="0,-70,0,0" Width="150" Height="30" Content="Видалити"
+                <Button x:Name="_btnDelete" Grid.Row="1" Margin="0,70,0,0" Width="150" Height="30" Content="Видалити"
                 VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="14"
                 Click="_btnDelete_Click"/>
+
+                <StackPanel Grid.Row="2" Grid.RowSpan="2" Margin="5">
+                    <ComboBox x:Name="_comboBoxSearch" Margin="10" Width="150" Height="30"
+                         VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="14"
+                         FontFamily="Cascadia Mono ExtraLight">
+                    </ComboBox>
+                    <TextBox x:Name="_textBox" Margin="10" Width="150" Height="30"
+                         VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="12"
+                         FontFamily="Cascadia Mono ExtraLight"/>
+                    <Button x:Name="_btnSearch" Margin="10" Width="150" Height="30" Content="Пошук"
+                        VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="14"
+                        Click="_btnSearch_Click"/>
+                </StackPanel>
+                
             </Grid>
         </Grid>
         <StackPanel Grid.Row="1" Grid.Column="0" Orientation="Horizontal">
