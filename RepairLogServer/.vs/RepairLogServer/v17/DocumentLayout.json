@@ -1,14 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\vitya\\OneDrive\\Documents\\GitHub\\RepairLog\\RepairLogServer\\",
+  "WorkspaceRootPath": "E:\\Coding\\Project VS\\NAU-project\\RepairLog\\RepairLog\\RepairLogServer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EDE5CAB9-48AA-4402-8143-F8B4335BA6B6}|RepairLogServer.csproj|c:\\users\\vitya\\onedrive\\documents\\github\\repairlog\\repairlogserver\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EDE5CAB9-48AA-4402-8143-F8B4335BA6B6}|RepairLogServer.csproj|e:\\coding\\project vs\\nau-project\\repairlog\\repairlog\\repairlogserver\\database\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDE5CAB9-48AA-4402-8143-F8B4335BA6B6}|RepairLogServer.csproj|solutionrelative:database\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDE5CAB9-48AA-4402-8143-F8B4335BA6B6}|RepairLogServer.csproj|E:\\Coding\\Project VS\\NAU-project\\RepairLog\\RepairLog\\RepairLogServer\\database\\breakdown.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDE5CAB9-48AA-4402-8143-F8B4335BA6B6}|RepairLogServer.csproj|solutionrelative:database\\breakdown.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDE5CAB9-48AA-4402-8143-F8B4335BA6B6}|RepairLogServer.csproj|E:\\Coding\\Project VS\\NAU-project\\RepairLog\\RepairLog\\RepairLogServer\\workspace\\edit.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDE5CAB9-48AA-4402-8143-F8B4335BA6B6}|RepairLogServer.csproj|solutionrelative:workspace\\edit.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDE5CAB9-48AA-4402-8143-F8B4335BA6B6}|RepairLogServer.csproj|E:\\Coding\\Project VS\\NAU-project\\RepairLog\\RepairLog\\RepairLogServer\\workspace\\add.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDE5CAB9-48AA-4402-8143-F8B4335BA6B6}|RepairLogServer.csproj|solutionrelative:workspace\\add.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDE5CAB9-48AA-4402-8143-F8B4335BA6B6}|RepairLogServer.csproj|E:\\Coding\\Project VS\\NAU-project\\RepairLog\\RepairLog\\RepairLogServer\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EDE5CAB9-48AA-4402-8143-F8B4335BA6B6}|RepairLogServer.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EDE5CAB9-48AA-4402-8143-F8B4335BA6B6}|RepairLogServer.csproj|C:\\Users\\vitya\\OneDrive\\Documents\\GitHub\\RepairLog\\RepairLogServer\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{EDE5CAB9-48AA-4402-8143-F8B4335BA6B6}|RepairLogServer.csproj|E:\\Coding\\Project VS\\NAU-project\\RepairLog\\RepairLog\\RepairLogServer\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{EDE5CAB9-48AA-4402-8143-F8B4335BA6B6}|RepairLogServer.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDE5CAB9-48AA-4402-8143-F8B4335BA6B6}|RepairLogServer.csproj|E:\\Coding\\Project VS\\NAU-project\\RepairLog\\RepairLog\\RepairLogServer\\workspace\\iraqaholic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDE5CAB9-48AA-4402-8143-F8B4335BA6B6}|RepairLogServer.csproj|solutionrelative:workspace\\iraqaholic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,34 +38,95 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\vitya\\OneDrive\\Documents\\GitHub\\RepairLog\\RepairLogServer\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\vitya\\OneDrive\\Documents\\GitHub\\RepairLog\\RepairLogServer\\MainWindow.xaml.cs",
-              "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAIABAABHAAAA",
+              "Title": "Context.cs",
+              "DocumentMoniker": "E:\\Coding\\Project VS\\NAU-project\\RepairLog\\RepairLog\\RepairLogServer\\Database\\Context.cs",
+              "RelativeDocumentMoniker": "Database\\Context.cs",
+              "ToolTip": "E:\\Coding\\Project VS\\NAU-project\\RepairLog\\RepairLog\\RepairLogServer\\Database\\Context.cs",
+              "RelativeToolTip": "Database\\Context.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T18:42:03.594Z",
-              "IsPinned": true,
+              "WhenOpened": "2024-05-01T13:00:09.312Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Breakdown.cs",
+              "DocumentMoniker": "E:\\Coding\\Project VS\\NAU-project\\RepairLog\\RepairLog\\RepairLogServer\\Database\\Breakdown.cs",
+              "RelativeDocumentMoniker": "Database\\Breakdown.cs",
+              "ToolTip": "E:\\Coding\\Project VS\\NAU-project\\RepairLog\\RepairLog\\RepairLogServer\\Database\\Breakdown.cs",
+              "RelativeToolTip": "Database\\Breakdown.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T13:00:08.706Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Iraqaholic.cs",
+              "DocumentMoniker": "E:\\Coding\\Project VS\\NAU-project\\RepairLog\\RepairLog\\RepairLogServer\\Workspace\\Iraqaholic.cs",
+              "RelativeDocumentMoniker": "Workspace\\Iraqaholic.cs",
+              "ToolTip": "E:\\Coding\\Project VS\\NAU-project\\RepairLog\\RepairLog\\RepairLogServer\\Workspace\\Iraqaholic.cs",
+              "RelativeToolTip": "Workspace\\Iraqaholic.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAASwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T12:48:37.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Edit.xaml.cs",
+              "DocumentMoniker": "E:\\Coding\\Project VS\\NAU-project\\RepairLog\\RepairLog\\RepairLogServer\\Workspace\\Edit.xaml.cs",
+              "RelativeDocumentMoniker": "Workspace\\Edit.xaml.cs",
+              "ToolTip": "E:\\Coding\\Project VS\\NAU-project\\RepairLog\\RepairLog\\RepairLogServer\\Workspace\\Edit.xaml.cs",
+              "RelativeToolTip": "Workspace\\Edit.xaml.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T12:48:32.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Add.xaml.cs",
+              "DocumentMoniker": "E:\\Coding\\Project VS\\NAU-project\\RepairLog\\RepairLog\\RepairLogServer\\Workspace\\Add.xaml.cs",
+              "RelativeDocumentMoniker": "Workspace\\Add.xaml.cs",
+              "ToolTip": "E:\\Coding\\Project VS\\NAU-project\\RepairLog\\RepairLog\\RepairLogServer\\Workspace\\Add.xaml.cs",
+              "RelativeToolTip": "Workspace\\Add.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T12:48:27.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\vitya\\OneDrive\\Documents\\GitHub\\RepairLog\\RepairLogServer\\MainWindow.xaml",
+              "DocumentMoniker": "E:\\Coding\\Project VS\\NAU-project\\RepairLog\\RepairLog\\RepairLogServer\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
-              "ToolTip": "C:\\Users\\vitya\\OneDrive\\Documents\\GitHub\\RepairLog\\RepairLogServer\\MainWindow.xaml",
+              "ToolTip": "E:\\Coding\\Project VS\\NAU-project\\RepairLog\\RepairLog\\RepairLogServer\\MainWindow.xaml",
               "RelativeToolTip": "MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-24T18:43:08.043Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-01T11:17:04.033Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "E:\\Coding\\Project VS\\NAU-project\\RepairLog\\RepairLog\\RepairLogServer\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "E:\\Coding\\Project VS\\NAU-project\\RepairLog\\RepairLog\\RepairLogServer\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD0AAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T10:34:04.778Z"
             }
           ]
         }
